@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="main.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  </style>
+</head>
+
+<body>
+  <main class="main">
+    <section class="user">
+      <div class="user-container">
+        <img src="./images/image-jeremy.png" />
+        <h1 class="user-text">
+          <span>Report for</span>
+          Jeremy Robson
+        </h1>
+      </div>
+      <div class="user-period" id="periods" data-js="periods">
+        <button class="period-btn active" id="daily-btn">Daily</button>
+        <button class="period-btn" id="weekly-btn">Weekly</button>
+        <button class="period-btn" id="monthly-btn">Monthly</button>
+      </div>
+    </section>
+    <section class="cards" data-js="cards-section">
+      <div class="work background">
+        <div class="card">
+          <div class="header">
+            <div class="title">
+              Work
+            </div>
+            <div class="option" id="image">
+              <img src="./images/icon-ellipsis.svg" />
+            </div>
+          </div>
+
+          <div class="card-hours">
+            <p class="current-hours">
+              5hrs
+            </p>
+            <p class="previous-hours">
+              Last Week - 7hrs
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="play background">
+        <div class="card">
+          <div class="header">
+            <div class="title">
+              Play
+            </div>
+            <div class="option">
+              <img src="./images/icon-ellipsis.svg" />
+            </div>
+          </div>
+          <div class="card-hours">
+            <div class="current-hours">
+              1hrs
+            </div>
+            <div class="previous-hours">
+              Last Week - 2hrs
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="study background">
+        <div class="card">
+          <div class="header">
+            <div class="title">
+              Study
+            </div>
+            <div class="option">
+              <img src="./images/icon-ellipsis.svg" />
+            </div>
+          </div>
+          <div class="card-hours">
+            <div class="current-hours">
+              0hrs
+            </div>
+            <div class="previous-hours">
+              Last Week - 1hrs
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="exercise background">
+        <div class="card">
+          <div class="header">
+            <div class="title">
+              Exercise
+            </div>
+            <div class="option">
+              <img src="./images/icon-ellipsis.svg" />
+            </div>
+          </div>
+          <div class="card-hours">
+            <div class="current-hours">
+              1hrs
+            </div>
+            <div class="previous-hours">
+              Last Week - 1hrs
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="social background">
+        <div class="card">
+          <div class="header">
+            <div class="title">
+              Social
+            </div>
+            <div class="option">
+              <img src="./images/icon-ellipsis.svg" />
+            </div>
+          </div>
+          <div class="card-hours">
+            <div class="current-hours">
+              1hrs
+            </div>
+            <div class="previous-hours">
+              Last Week - 3hrs
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="selfCare background">
+        <div class="card">
+          <div class="header">
+            <div class="title">
+              Self Care
+            </div>
+            <div class="option">
+              <img src="./images/icon-ellipsis.svg" />
+            </div>
+          </div>
+          <div class="card-hours">
+            <div class="current-hours">
+              0hrs
+            </div>
+            <div class="previous-hours">
+              Last Week - 1hrs
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <script src="main.js"></script>
+  <script src="data.json"></script>
+</body>
+
+</html>

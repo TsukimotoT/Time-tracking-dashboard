@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: hsl(226, 43%, 10%);
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    gap: 25px;
+}
+
+.user{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 20px;
+}
+
+.user-container{
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 20px;
+    width: 240px;
+    height: 400px;
+    padding: 40px 36px 60px 40px;
+    font-size: 300;
+}
+
+.user-text{
+    font-weight: 300;
+    font-size: 42px;
+    margin-top: 24px;
+    width: 180px;
+}
+
+.user-text span{
+    font-size: 12px;
+}
+
+.user-container img{
+    width: 80px;
+    
+}
+
+.user-period{
+    
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 160px;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.work{
+    background-color: hsl(15, 100%, 70%);
+    background-image: url(./images/icon-work.svg);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position-x: 145px;
+}
+
+.play{
+    background-color: hsl(195, 74%, 62%);
+    background-image: url(./images/icon-play.svg);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position-x: 145px;
+    
+}
+
+.study{
+    background-color: hsl(348, 100%, 68%);
+    background-image: url(./images/icon-study.svg);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position-x: 145px;
+}
+
+.exercise{
+    background-color: hsl(145, 58%, 55%);
+    background-image: url(./images/icon-exercise.svg);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position-x: 145px;
+}
+
+.social{
+    background-color: hsl(264, 64%, 52%);
+    background-image: url(./images/icon-social.svg);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position-x: 145px;
+}
+
+.selfCare{
+    background-color: hsl(43, 84%, 65%);
+    background-image: url(./images/icon-self-care.svg);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position-x: 145px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 50%;
+    gap: 20px;
+    
+}
+
+.card{
+    background-color: hsl(235, 46%, 20%);
+    height: 100%;
+    margin-top: 60px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.background{
+    height: 210px;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+button{
+    cursor: pointer;
+    background-color: transparent;
+    border: transparent;
+    color: hsl(235, 45%, 61%);
+    display: flex;
+    align-content: flex-start;
+    font-family: 'Rubik';
+    font-weight: 500;
+
+}
+
+.active{
+    color: white;
+    
+}
+
+.card-hours{
+    height: 93%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    line-height: 64px;
+}
+
+
+.current-hours{
+    font-size: 50px;
+}
+
+.previous-hours{
+    font-size: 12px;
+}
+
+.option:hover{
+    cursor: pointer;
+}
+
+.option{
+    color: white;
+}
+.period-btn{
+    font-size: 16px;
+}
